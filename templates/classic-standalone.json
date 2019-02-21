@@ -240,7 +240,7 @@
 					    }
 					]
 				    },
-				    "periodSeconds": 30,
+				    "periodSeconds", 30,
                                     "initialsDelaySeconds", 30,
 				    "successThreshold": 1,
 				    "timeoutSeconds": 1
@@ -495,11 +495,6 @@
                 "resources": {
                     "requests": {
                         "storage": "${DATABASE_VOLUME_SIZE}"
-                    }
-                },
-                "selector": {
-                    "matchLabels": {
-                        "type": "database"
                     }
                 }
             }
